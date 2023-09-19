@@ -67,12 +67,130 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="bookedmessage.aspx" />
+    <Content Include="ConferenceHall.aspx" />
+    <Content Include="CoworkingSpace.aspx" />
+    <Content Include="DisplayRegister.aspx" />
+    <Content Include="FacilityBooking.aspx" />
+    <Content Include="FBOffice.aspx" />
+    <Content Include="Homepage.aspx" />
+    <Content Include="Inbox.aspx" />
+    <Content Include="LoginPage.aspx" />
+    <Content Include="NetworkingLounge.aspx" />
+    <Content Include="RegisterPage.aspx" />
+    <Content Include="RyanGeorge.jpg" />
+    <Content Include="TARUMTLogo.png" />
+    <Content Include="ThankYou.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bookedmessage.aspx.cs">
+      <DependentUpon>bookedmessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bookedmessage.aspx.designer.cs">
+      <DependentUpon>bookedmessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConferenceHall.aspx.cs">
+      <DependentUpon>ConferenceHall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConferenceHall.aspx.designer.cs">
+      <DependentUpon>ConferenceHall.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CoworkingSpace.aspx.cs">
+      <DependentUpon>CoworkingSpace.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoworkingSpace.aspx.designer.cs">
+      <DependentUpon>CoworkingSpace.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayRegister.aspx.cs">
+      <DependentUpon>DisplayRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayRegister.aspx.designer.cs">
+      <DependentUpon>DisplayRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FacilityBooking.aspx.cs">
+      <DependentUpon>FacilityBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacilityBooking.aspx.designer.cs">
+      <DependentUpon>FacilityBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FacilityBooking.Master.cs">
+      <DependentUpon>FacilityBooking.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacilityBooking.Master.designer.cs">
+      <DependentUpon>FacilityBooking.Master</DependentUpon>
+    </Compile>
+    <Compile Include="FBOffice.aspx.cs">
+      <DependentUpon>FBOffice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FBOffice.aspx.designer.cs">
+      <DependentUpon>FBOffice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inbox.aspx.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inbox.aspx.designer.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyBooking.Master.cs">
+      <DependentUpon>MyBooking.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyBooking.Master.designer.cs">
+      <DependentUpon>MyBooking.Master</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkingLounge.aspx.cs">
+      <DependentUpon>NetworkingLounge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NetworkingLounge.aspx.designer.cs">
+      <DependentUpon>NetworkingLounge.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterPage.aspx.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterPage.aspx.designer.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThankYou.aspx.cs">
+      <DependentUpon>ThankYou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThankYou.aspx.designer.cs">
+      <DependentUpon>ThankYou.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FacilityBooking.Master" />
+    <Content Include="MyBooking.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -81,6 +199,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
