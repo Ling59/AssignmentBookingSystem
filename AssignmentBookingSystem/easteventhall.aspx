@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MyBooking.Master" AutoEventWireup="true" CodeBehind="easteventhall.aspx.cs" Inherits="AssignmentBookingSystem.easteventhall1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FacilityBooking.Master" AutoEventWireup="true" CodeBehind="easteventhall.aspx.cs" Inherits="AssignmentBookingSystem.easteventhall1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
     .center {

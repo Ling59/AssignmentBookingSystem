@@ -6,7 +6,7 @@
 
 <html>
 <body>
-       <asp:Button class="square" ID="mybookings1" runat="server" Text="BookingStatus: Successful" OnClick="mybookings1_Click"/>
+       <asp:Button class="square" ID="mybookings" runat="server" Text="BookingStatus: Successful" OnClick="mybookings_Click" OnClientClick="unpaid.aspx"/>
 </body>
 </html>
 

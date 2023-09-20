@@ -13,5 +13,10 @@ namespace AssignmentBookingSystem
         {
 
         }
+
+        protected void mybookings_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

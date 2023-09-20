@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <html>
 <body>
-      <asp:Button class="square" ID="mybookings3" runat="server" Text="BookingStatus: Successful" OnClick="mybookings3_Click"/>
+      <asp:Button class="square" ID="mybookings" runat="server" Text="BookingStatus: Successful" OnClick="mybookings_Click"/>
             
 </body>
 </html>

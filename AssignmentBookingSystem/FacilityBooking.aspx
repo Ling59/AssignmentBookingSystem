@@ -65,7 +65,7 @@
         <tr>
             <td>&nbsp;</td>
             <td class="auto-style2">
-                <asp:HyperLink ID="FBSchool" runat="server" NavigateUrl="FBSchool.aspx">School Hall</asp:HyperLink>
+                <asp:HyperLink ID="FBSchool" runat="server" NavigateUrl="schoolHall.aspx">School Hall</asp:HyperLink>
             </td>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style5">

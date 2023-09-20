@@ -84,6 +84,7 @@
     <Content Include="img\campus-2.jpg" />
     <Content Include="Inbox.aspx" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="MyBooking.aspx" />
     <Content Include="NetworkingLounge.aspx" />
     <Content Include="paid.aspx" />
     <Content Include="pending.aspx" />
@@ -175,6 +176,13 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyBooking.aspx.cs">
+      <DependentUpon>MyBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyBooking.aspx.designer.cs">
+      <DependentUpon>MyBooking.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyBooking.Master.cs">
       <DependentUpon>MyBooking.Master</DependentUpon>
