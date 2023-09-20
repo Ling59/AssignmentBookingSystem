@@ -146,7 +146,7 @@
             <td class="auto-style13">
                 &nbsp;</td>
             <td class="auto-style11">
-                <textarea id="TextArea1" class="auto-style7" name="S1"></textarea></td>
+                <textarea id="NLReasons" class="auto-style7" name="S1"></textarea></td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
@@ -211,7 +211,7 @@
                 <td class="auto-style18">
                     &nbsp;</td>
                 <td>
-                    <asp:Button ID="Button1" runat="server" Text="Button" />
+                    <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
