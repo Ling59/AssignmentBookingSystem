@@ -27,7 +27,7 @@
                 <a href="#">Forgot password</a>
             </div>
 
-            <asp:Button ID="LoginButton" runat="server" Text="Login" class="btn" OnClientClick="Homepage.aspx" />
+            <asp:Button ID="LoginButton" runat="server" Text="Login" class="btn" OnClientClick="Homepage.aspx" OnClick="LoginButton_Click1" />
 
             <div class="register-link">
                 <p>Don't have an account?<asp:HyperLink ID="registerHyperLink" runat="server" NavigateUrl="~/RegisterPage.aspx">Register</asp:HyperLink></p> 

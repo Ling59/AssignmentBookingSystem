@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1old.mdf" />
+    <Content Include="App_Data\Database1old_log.ldf">
+      <DependentUpon>Database1old.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
@@ -77,6 +81,7 @@
     <Content Include="DisplayRegister.aspx" />
     <Content Include="easteventhall.aspx" />
     <Content Include="FacilityBooking.aspx" />
+    <Content Include="FakeDataInput.aspx" />
     <Content Include="FBOffice.aspx" />
     <Content Include="Homepage.aspx" />
     <Content Include="Image\eventhall.jpg" />
@@ -94,6 +99,7 @@
     <Content Include="Style\Login.css" />
     <Content Include="Style\Mybooking.css" />
     <Content Include="TARUMTLogo.png" />
+    <Content Include="FakeDataDisplay.aspx" />
     <Content Include="ThankYou.aspx" />
     <Content Include="unpaid.aspx" />
     <Content Include="Web.config" />
@@ -148,6 +154,13 @@
     </Compile>
     <Compile Include="FacilityBooking.Master.designer.cs">
       <DependentUpon>FacilityBooking.Master</DependentUpon>
+    </Compile>
+    <Compile Include="FakeDataInput.aspx.cs">
+      <DependentUpon>FakeDataInput.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FakeDataInput.aspx.designer.cs">
+      <DependentUpon>FakeDataInput.aspx</DependentUpon>
     </Compile>
     <Compile Include="FBOffice.aspx.cs">
       <DependentUpon>FBOffice.aspx</DependentUpon>
@@ -226,6 +239,13 @@
     </Compile>
     <Compile Include="schoolHall.aspx.designer.cs">
       <DependentUpon>schoolHall.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FakeDataDisplay.aspx.cs">
+      <DependentUpon>FakeDataDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FakeDataDisplay.aspx.designer.cs">
+      <DependentUpon>FakeDataDisplay.aspx</DependentUpon>
     </Compile>
     <Compile Include="ThankYou.aspx.cs">
       <DependentUpon>ThankYou.aspx</DependentUpon>
