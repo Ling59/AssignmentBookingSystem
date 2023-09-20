@@ -75,17 +75,28 @@
     <Content Include="ConferenceHall.aspx" />
     <Content Include="CoworkingSpace.aspx" />
     <Content Include="DisplayRegister.aspx" />
+    <Content Include="easteventhall.aspx" />
     <Content Include="FacilityBooking.aspx" />
     <Content Include="FBOffice.aspx" />
     <Content Include="Homepage.aspx" />
+    <Content Include="Image\eventhall.jpg" />
+    <Content Include="Image\tarcevent.jpg" />
+    <Content Include="img\campus-2.jpg" />
     <Content Include="Inbox.aspx" />
     <Content Include="LoginPage.aspx" />
     <Content Include="NetworkingLounge.aspx" />
+    <Content Include="paid.aspx" />
+    <Content Include="pending.aspx" />
     <Content Include="RegisterPage.aspx" />
     <Content Include="RyanGeorge.jpg" />
+    <Content Include="schoolHall.aspx" />
+    <Content Include="Style\Login.css" />
+    <Content Include="Style\Mybooking.css" />
     <Content Include="TARUMTLogo.png" />
     <Content Include="ThankYou.aspx" />
+    <Content Include="unpaid.aspx" />
     <Content Include="Web.config" />
+    <Content Include="westeventhall.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bookedmessage.aspx.cs">
@@ -115,6 +126,13 @@
     </Compile>
     <Compile Include="DisplayRegister.aspx.designer.cs">
       <DependentUpon>DisplayRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="easteventhall.aspx.cs">
+      <DependentUpon>easteventhall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="easteventhall.aspx.designer.cs">
+      <DependentUpon>easteventhall.aspx</DependentUpon>
     </Compile>
     <Compile Include="FacilityBooking.aspx.cs">
       <DependentUpon>FacilityBooking.aspx</DependentUpon>
@@ -172,6 +190,20 @@
     <Compile Include="NetworkingLounge.aspx.designer.cs">
       <DependentUpon>NetworkingLounge.aspx</DependentUpon>
     </Compile>
+    <Compile Include="paid.aspx.cs">
+      <DependentUpon>paid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paid.aspx.designer.cs">
+      <DependentUpon>paid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pending.aspx.cs">
+      <DependentUpon>pending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pending.aspx.designer.cs">
+      <DependentUpon>pending.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterPage.aspx.cs">
       <DependentUpon>RegisterPage.aspx</DependentUpon>
@@ -180,12 +212,33 @@
     <Compile Include="RegisterPage.aspx.designer.cs">
       <DependentUpon>RegisterPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="schoolHall.aspx.cs">
+      <DependentUpon>schoolHall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="schoolHall.aspx.designer.cs">
+      <DependentUpon>schoolHall.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ThankYou.aspx.cs">
       <DependentUpon>ThankYou.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ThankYou.aspx.designer.cs">
       <DependentUpon>ThankYou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="unpaid.aspx.cs">
+      <DependentUpon>unpaid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="unpaid.aspx.designer.cs">
+      <DependentUpon>unpaid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="westeventhall.aspx.cs">
+      <DependentUpon>westeventhall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="westeventhall.aspx.designer.cs">
+      <DependentUpon>westeventhall.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
