@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FacilityBooking.Master" AutoEventWireup="true" CodeBehind="FacilityBooking.aspx.cs" Inherits="AssignmentBookingSystem.FacilityBooking1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+     <link href="Style/Header.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
         .auto-style1 {
             width: 30px;

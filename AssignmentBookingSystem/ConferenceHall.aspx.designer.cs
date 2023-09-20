@@ -33,6 +33,15 @@ namespace AssignmentBookingSystem
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
 
         /// <summary>
+        /// CHTextbox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox CHTextbox;
+
+        /// <summary>
         /// TextBox2 control.
         /// </summary>
         /// <remarks>
@@ -42,13 +51,13 @@ namespace AssignmentBookingSystem
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
 
         /// <summary>
-        /// Button1 control.
+        /// CHsubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button CHsubmit;
 
         /// <summary>
         /// Button2 control.

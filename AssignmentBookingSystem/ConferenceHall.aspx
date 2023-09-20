@@ -26,10 +26,6 @@
         .auto-style6 {
             height: 28px;
         }
-        .auto-style7 {
-            width: 763px;
-            height: 110px;
-        }
         .auto-style11 {
             width: 404px;
         }
@@ -139,7 +135,8 @@
             <td class="auto-style13">
                 &nbsp;</td>
             <td class="auto-style11">
-                <textarea id="TextArea1" class="auto-style7" name="S1"></textarea></td>
+                <asp:TextBox ID="CHTextbox" runat="server" Height="40px" Width="423px"></asp:TextBox>
+            </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
@@ -204,7 +201,7 @@
                 <td class="auto-style18">
                     &nbsp;</td>
                 <td>
-                    <asp:Button ID="Button1" runat="server" Text="Button" />
+                    <asp:Button ID="CHsubmit" runat="server" Text="Button" OnClick="CHsubmit_Click" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>

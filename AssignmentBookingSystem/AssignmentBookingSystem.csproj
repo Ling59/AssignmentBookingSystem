@@ -92,6 +92,7 @@
     <Content Include="RegisterPage.aspx" />
     <Content Include="RyanGeorge.jpg" />
     <Content Include="schoolHall.aspx" />
+    <Content Include="Style\Header.css" />
     <Content Include="Style\Login.css" />
     <Content Include="Style\Mybooking.css" />
     <Content Include="TARUMTLogo.png" />

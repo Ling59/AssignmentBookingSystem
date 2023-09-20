@@ -6,8 +6,9 @@
 <head runat="server">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
-
+        <link href="Style/Header.css" rel="stylesheet" type="text/css" />
         <style type="text/css">
+
 
     .center {
     display: block;
@@ -138,13 +139,13 @@
                         <td rowspan="3">&nbsp;</td>
                         <td rowspan="3" class="auto-style21">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <asp:Image ID="Logo" runat="server" Height="95px" Width="286px" ImageUrl="TARUMTLogo.png" />
+                            <asp:Image ID="Logo" runat="server" Height="96px" Width="328px" ImageUrl="TARUMTLogo.png" />
                         </td>
                         <td class="auto-style26"></td>
                         <td class="auto-style4" rowspan="3">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <asp:Image ID="ProfilePicture" runat="server" Height="102px" ImageUrl="RyanGeorge.jpg" Width="103px" />
-                        &nbsp;&nbsp;&nbsp; <span class="auto-style25">&nbsp;Hello!</span></td>
+                        &nbsp;&nbsp;&nbsp; <span class="auto-style25"></span></td>
                         <td class="auto-style1" rowspan="3">
                             &nbsp;</td>
                         <td rowspan="3">&nbsp;</td>
